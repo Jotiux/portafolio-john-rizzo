@@ -26,7 +26,8 @@
   background-color: #4A6274;
 }
 
-.principal {
+.principal,
+.seccion {
   padding: 32px;
   color: #222B33;
 }
@@ -37,4 +38,25 @@
   height: auto;
   margin-top: 24px;
   border-radius: 50%;
+}
+
+.habilidades-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.habilidades-lista li {
+  flex: 1 1 260px;
+  padding: 16px;
+  background-color: #F4F6F8;
+  border-left: 4px solid #B08D57;
+}
+
+.habilidades-lista h3 {
+  margin: 0 0 8px 0;
+  color: #1F3A5F;
 }
