@@ -1,0 +1,40 @@
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: #1F3A5F;
+  color: #FFFFFF;
+}
+
+.menu {
+  display: flex;
+  gap: 12px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 8px 12px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #4A6274;
+}
+
+.principal {
+  padding: 32px;
+  color: #222B33;
+}
+
+.avatar {
+  display: block;
+  width: 180px;
+  height: auto;
+  margin-top: 24px;
+  border-radius: 50%;
+}
